@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. --><style name="AppTheme" parent="Base.AppTheme" />
+
+    <style name="AppTheme.OverlapSystemBar" parent="Base.AppTheme" />
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- For Android sdk versions 26+. -->
+        <!-- sets the style for the overflow button -->
+    </style>
+
+    <style name="Base.Theme.Jokes_for_me" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorHintText</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <!-- Background color. -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <!-- Text colors. -->
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:textColorHint">@color/colorHintText</item>
+        <!-- Accent color. -->
+        <item name="colorAccent">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+    </style>
+
+    <style name="Theme.Jokes_for_me" parent="Base.Theme.Jokes_for_me" />
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light" />
+
+<!--    <style name="CustomOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">-->
+<!--        <item name="endIconTint">@color/colorAccent</item>-->
+<!--    </style>-->
+
+
+</resources>

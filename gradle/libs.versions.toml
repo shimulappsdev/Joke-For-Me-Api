@@ -1,0 +1,52 @@
+[versions]
+agp = "8.4.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+retrofit_version = "2.9.0"
+archLifecycleVersion = "2.8.0"
+navigationVersion = "2.7.7"
+activity_version = "1.9.0"
+sdp_version = "1.1.1"
+chip_version = "1.4.0"
+spinKit_version = "1.4.0"
+roomVersion = "2.6.1"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit_version" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit_version" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "archLifecycleVersion" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "archLifecycleVersion" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationVersion" }
+lifecycle-compiler-kapt = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "archLifecycleVersion" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationVersion" }
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity_version" }
+intuit-sdp = { group = "com.intuit.sdp", name = "sdp-android", version.ref = "sdp_version" }
+intuit-ssp = { group = "com.intuit.ssp", name = "ssp-android", version.ref = "sdp_version" }
+chip-navigation = { group = "com.github.ismaeldivita", name = "chip-navigation-bar", version.ref = "chip_version" }
+spinKit = { group = "com.github.ybq", name = "Android-SpinKit", version.ref = "spinKit_version" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+room-compiler-kapt = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+safe-args = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigationVersion" }
+
